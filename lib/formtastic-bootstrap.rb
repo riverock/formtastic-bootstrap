@@ -5,6 +5,7 @@ require "formtastic-bootstrap/helpers"
 require "formtastic-bootstrap/inputs"
 require "formtastic-bootstrap/actions"
 require "formtastic-bootstrap/form_builder"
+require "formtastic-bootstrap/formtastic/util"
 require "action_view/helpers/text_field_date_helper"
 
 module FormtasticBootstrap

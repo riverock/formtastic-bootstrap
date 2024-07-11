@@ -1,4 +1,4 @@
-# Formtastic Bootstrap
+# Formtastic Bootstrap (Formtastic 4 fork)
 
 [![Build Status](https://travis-ci.org/mjbellantoni/formtastic-bootstrap.svg?branch=master)](https://travis-ci.org/mjbellantoni/formtastic-bootstrap)
 
@@ -56,7 +56,7 @@ Add the following line to the top of your <tt>application.css</tt> file:
     # app/assets/stylesheets/application.css
     *= require formtastic-bootstrap
 
-Make sure you've already downloaded and installed Formtastic! Do *not* however require formtastic in your `application.css` file or you will have many bootstrap/formtastic-bootstrap styles overwritten. 
+Make sure you've already downloaded and installed Formtastic! Do *not* however require formtastic in your `application.css` file or you will have many bootstrap/formtastic-bootstrap styles overwritten.
 
 
 ## Formtastic vs. Formtastic Bootstrap
