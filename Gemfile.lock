@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    formtastic-bootstrap (3.2.0)
+    formtastic-bootstrap (3.3.0)
       formtastic (>= 4.0)
 
 GEM
