@@ -29,8 +29,12 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('tzinfo')
   s.add_development_dependency('bundler')
-  s.add_development_dependency('nokogiri', ["< 1.6.0"])
+  s.add_development_dependency('nokogiri', ["< 1.19"])
   s.add_development_dependency('rspec_tag_matchers', ["~> 1.0"])
   s.add_development_dependency('ammeter', ["~> 0.2"])
   s.add_development_dependency('actionpack', ["~> 3.2"])
+
+  # should be removable after upgrading to Rails 7
+  # https://stackoverflow.com/a/79361034
+  s.add_development_dependency('concurrent-ruby', ["1.3.4"])
 end
