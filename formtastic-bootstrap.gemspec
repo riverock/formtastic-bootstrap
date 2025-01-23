@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
 
-  s.add_dependency('formtastic', [">= 3.0"])
+  s.add_dependency('formtastic', [">= 4.0"])
 
   s.add_development_dependency('rake')
   s.add_development_dependency('tzinfo')
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('nokogiri', ["< 1.19"])
   s.add_development_dependency('rspec_tag_matchers', ["~> 1.0"])
   s.add_development_dependency('ammeter', ["~> 0.2"])
-  s.add_development_dependency('actionpack', ["~> 3.2"])
+  s.add_development_dependency('actionpack', ["~> 5.2"])
 
   # should be removable after upgrading to Rails 7
   # https://stackoverflow.com/a/79361034
