@@ -36,6 +36,10 @@ module FormtasticBootstrap
         )
       end
 
+      def hidden_fields?
+        options[:hidden_fields]
+      end
+
     end
   end
 end
